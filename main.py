@@ -319,5 +319,4 @@ async def hangman(ctx):
 
 keep_alive()
 import os
-my_secret = os.environ['TOKEN']
-bot.run(my_secret)
+bot.run('TOKEN')
